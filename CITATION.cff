@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research archive when using its code or supporting data."
+type: software
+title: "Research code and supporting data for: A Multi-Agent Framework for Regional Landslide Susceptibility Mapping and Multi-Hazard Fragility Assessment of Rural Buildings"
+version: 1.0.0
+date-released: 2026-10-23
+url: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk
+repository-code: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk
+authors:
+  - family-names: Wang
+    given-names: Hao
+  - family-names: Shi
+    given-names: Chen
+  - family-names: Li
+    given-names: Yawei
+  - family-names: Ma
+    given-names: Hongrong
+license: MIT
+abstract: "Research scripts, numerical source data and verification utilities for regional susceptibility, conditional runout arrival, local building fragility and an independent annual-risk example. Component-specific data licences are documented in DATA_LICENSES.md."
+keywords:
+  - landslide susceptibility
+  - rural buildings
+  - conditional fragility
+  - finite element analysis
+  - stochastic runout
+  - risk assessment

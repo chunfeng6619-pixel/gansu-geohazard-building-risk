@@ -1,0 +1,98 @@
+{
+  "case": "Tianshui",
+  "city": "天水",
+  "scope": "full municipality; all constituent county polygons",
+  "source_bbox": [
+    104.57341450037893,
+    34.078388000106145,
+    106.71244049992919,
+    35.17683900021973
+  ],
+  "region_bounds_UTM48N": [
+    460943.0735846752,
+    3771003.96953507,
+    657476.7721394745,
+    3893252.148633099
+  ],
+  "origin_lower_left_UTM48N": [
+    460900.0,
+    3771000.0
+  ],
+  "grid_cell_m": 100.0,
+  "grid_shape": [
+    1223,
+    1966
+  ],
+  "n_buildings": 533622,
+  "n_occupied_cells": 113545,
+  "n_counties": 7,
+  "county_counts": [
+    {
+      "county": "秦州区",
+      "count": 62310
+    },
+    {
+      "county": "麦积区",
+      "count": 85408
+    },
+    {
+      "county": "秦安县",
+      "count": 89796
+    },
+    {
+      "county": "武山县",
+      "count": 76514
+    },
+    {
+      "county": "甘谷县",
+      "count": 133567
+    },
+    {
+      "county": "清水县",
+      "count": 37031
+    },
+    {
+      "county": "张家川回族自治县",
+      "count": 48996
+    }
+  ],
+  "previous_assignment_matches": 6284,
+  "source_invalid_footprints": 0,
+  "mean_weight": "equal count of public footprint records",
+  "NC_rule": "any NC-assigned footprint makes the occupied grid cell NC; no numerical mean is drawn",
+  "unoccupied_rule": "NoData, not zero damage or absence of buildings",
+  "hypothetical_assignment_seed": 2026102002,
+  "hypothetical_assignment": "spatial Fourier field, 24 waves 1000–5000 m, ID-stable local mixing; cutoffs -0.15 and 0.80; existing IDs retain prior type",
+  "type_proportions_are_observed": false,
+  "raw_bbox_rows": 735959,
+  "release": "2026-09-23.1",
+  "access_date": "2026-10-20",
+  "source_geometry_modified": false,
+  "source_sha256": "a7179369acc4f5df36d2304868d45c1731d4b9da2e9c5d8576d55a44040aad39",
+  "source_url": "https://docs.overturemaps.org/guides/buildings/",
+  "conditional_metric": "mean of existing local P(Dt>=0.5 | prototype, prescribed load, beta=.5) bounds",
+  "regional_hazard_occurrence_model": false,
+  "new_FE_runs": 0,
+  "threshold_Dt": 0.5,
+  "beta_assumed": 0.5,
+  "status_counts": {
+    "SLIDE": {
+      "eligible_cells": 113545,
+      "NC_cells": 0,
+      "eligible_buildings": 533622,
+      "NC_buildings": 0
+    },
+    "DEBRIS": {
+      "eligible_cells": 113545,
+      "NC_cells": 0,
+      "eligible_buildings": 533622,
+      "NC_buildings": 0
+    },
+    "ROCK": {
+      "eligible_cells": 113545,
+      "NC_cells": 0,
+      "eligible_buildings": 533622,
+      "NC_buildings": 0
+    }
+  }
+}

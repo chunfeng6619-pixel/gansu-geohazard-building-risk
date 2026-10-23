@@ -1,0 +1,81 @@
+{
+  "scope": "hypothetical_benchmark_only",
+  "baseline": {
+    "lambda_per_year": 0.1,
+    "angle_deg": 25.0,
+    "depth_m": 0.8,
+    "capacity_scale": 1.0,
+    "beta": 0.6,
+    "loss_scale": 1.0,
+    "value_CNY": 300000.0
+  },
+  "reach": 0.41711542730625184,
+  "event_state_probabilities": [
+    0.622758555334086,
+    0.08358579783794062,
+    0.10673986746089739,
+    0.11654574334609591,
+    0.07037003602098016
+  ],
+  "event_EL": 49747.42362381427,
+  "EAL": 4974.7423623814275,
+  "annual_severe_exceed": 0.01851797372209728,
+  "uncertainty_EAL_p05_p50_p95": [
+    320.6746825310908,
+    3190.744179861904,
+    13991.363848699168
+  ],
+  "MC_parameter_sets": 100000,
+  "Sobol_base_n": 8192,
+  "Sobol_evaluations": 73728,
+  "simulated_years": 200000,
+  "MC_annual_mean": 4989.45,
+  "MC_mean_SE": 72.58272545687214,
+  "checks": "state closure; ordered exceedance; zero rate/reach; monotone interventions; analytic EAL vs compound Poisson MC; Shapley additivity",
+  "independent_parameter_priors": [
+    {
+      "name": "lambda_per_year",
+      "distribution": "uniform",
+      "lower": 0.02,
+      "upper": 0.2
+    },
+    {
+      "name": "angle_deg",
+      "distribution": "uniform",
+      "lower": 15.0,
+      "upper": 35.0
+    },
+    {
+      "name": "depth_m",
+      "distribution": "uniform",
+      "lower": 0.3,
+      "upper": 1.5
+    },
+    {
+      "name": "capacity_scale",
+      "distribution": "uniform",
+      "lower": 0.6,
+      "upper": 1.6
+    },
+    {
+      "name": "beta",
+      "distribution": "uniform",
+      "lower": 0.35,
+      "upper": 0.9
+    },
+    {
+      "name": "loss_scale",
+      "distribution": "uniform",
+      "lower": 0.7,
+      "upper": 1.0
+    },
+    {
+      "name": "value_CNY",
+      "distribution": "uniform",
+      "lower": 150000.0,
+      "upper": 450000.0
+    }
+  ],
+  "physical_assumptions": "100m ideal path; source drop uniform[0,80]m; point-mass energy proxy; rho1800; nominal average pressure; artificial capacity theta[100,300,600,1200]kPa; relative loss[0,.05,.2,.6,1]; restored asset between events",
+  "not_included": "Explicit E,fc,t are not resampled independently of capacity without a calibrated FE surrogate. No real hazard frequency or actual-building damage/loss assignment."
+}

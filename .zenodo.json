@@ -1,0 +1,42 @@
+{
+  "title": "Research code and supporting data for: A Multi-Agent Framework for Regional Landslide Susceptibility Mapping and Multi-Hazard Fragility Assessment of Rural Buildings",
+  "upload_type": "software",
+  "publication_date": "2026-10-23",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Wang, Hao",
+      "affiliation": "Gansu Agricultural University"
+    },
+    {
+      "name": "Shi, Chen",
+      "affiliation": "Gansu Agricultural University"
+    },
+    {
+      "name": "Li, Yawei",
+      "affiliation": "Gansu Agricultural University"
+    },
+    {
+      "name": "Ma, Hongrong",
+      "affiliation": "Gansu Agricultural University"
+    }
+  ],
+  "description": "<p>Research scripts, archived numerical data, 50 eligible-case Abaqus INP decks and portable verification utilities accompanying manuscript 1022. Covers Tianshui landslide susceptibility and conditional runout, nine rural-building archetypes under prescribed landslide/debris-flow/rockfall loads, local fragility bounds, municipal scenario maps, and a separate parametric annual-risk benchmark. Raw third-party DEM/inventory/footprint geometry, proprietary solvers and the full unpublished manuscript are excluded.</p><p>Software: MIT. Authored non-spatial numerical data: CC BY 4.0. OSM/Overture-linked database derivatives: ODbL with provider attribution, as detailed in DATA_LICENSES.md. Spatial scenario classes are not surveyed building attributes. The benchmark EAL is not assigned to real mapped buildings.</p>",
+  "keywords": [
+    "landslide susceptibility",
+    "rural buildings",
+    "conditional fragility",
+    "finite elements",
+    "stochastic runout",
+    "probabilistic risk"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

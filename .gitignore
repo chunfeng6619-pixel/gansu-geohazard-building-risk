@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+results/
+external_inputs/
+.env
+.env.*
+*.odb
+*.lck
+*.sim
+*.res
+*.prt

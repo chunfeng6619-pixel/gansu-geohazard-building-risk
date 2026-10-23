@@ -1,0 +1,102 @@
+{
+  "case": "Lanzhou",
+  "city": "兰州",
+  "scope": "full municipality; all constituent county polygons",
+  "source_bbox": [
+    102.5965140003209,
+    35.5727893999109,
+    104.57455309964587,
+    36.99314560018934
+  ],
+  "region_bounds_UTM48N": [
+    285321.8333591422,
+    3936806.5091224187,
+    461737.7847596279,
+    4095287.6840393776
+  ],
+  "origin_lower_left_UTM48N": [
+    285300.0,
+    3936800.0
+  ],
+  "grid_cell_m": 100.0,
+  "grid_shape": [
+    1585,
+    1765
+  ],
+  "n_buildings": 550259,
+  "n_occupied_cells": 135484,
+  "n_counties": 8,
+  "county_counts": [
+    {
+      "county": "城关区",
+      "count": 34767
+    },
+    {
+      "county": "七里河区",
+      "count": 42682
+    },
+    {
+      "county": "西固区",
+      "count": 33382
+    },
+    {
+      "county": "安宁区",
+      "count": 13953
+    },
+    {
+      "county": "红古区",
+      "count": 22753
+    },
+    {
+      "county": "永登县",
+      "count": 165192
+    },
+    {
+      "county": "皋兰县",
+      "count": 60907
+    },
+    {
+      "county": "榆中县",
+      "count": 176623
+    }
+  ],
+  "previous_assignment_matches": 3617,
+  "source_invalid_footprints": 0,
+  "mean_weight": "equal count of public footprint records",
+  "NC_rule": "any NC-assigned footprint makes the occupied grid cell NC; no numerical mean is drawn",
+  "unoccupied_rule": "NoData, not zero damage or absence of buildings",
+  "hypothetical_assignment_seed": 2026102001,
+  "hypothetical_assignment": "spatial Fourier field, 24 waves 1000–5000 m, ID-stable local mixing; cutoffs -0.15 and 0.80; existing IDs retain prior type",
+  "type_proportions_are_observed": false,
+  "raw_bbox_rows": 934172,
+  "release": "2026-09-23.1",
+  "access_date": "2026-10-20",
+  "source_geometry_modified": false,
+  "source_sha256": "062abdb6ae3b99330234c78a223036c13ece3aa7e4bfbf61f056b098eff8e80d",
+  "source_url": "https://docs.overturemaps.org/guides/buildings/",
+  "conditional_metric": "mean of existing local P(Dt>=0.5 | prototype, prescribed load, beta=.5) bounds",
+  "regional_hazard_occurrence_model": false,
+  "new_FE_runs": 0,
+  "threshold_Dt": 0.5,
+  "beta_assumed": 0.5,
+  "status_counts": {
+    "SLIDE": {
+      "eligible_cells": 135484,
+      "NC_cells": 0,
+      "eligible_buildings": 550259,
+      "NC_buildings": 0
+    },
+    "DEBRIS": {
+      "eligible_cells": 135484,
+      "NC_cells": 0,
+      "eligible_buildings": 550259,
+      "NC_buildings": 0
+    },
+    "ROCK": {
+      "eligible_cells": 135484,
+      "NC_cells": 0,
+      "eligible_buildings": 550259,
+      "NC_buildings": 0
+    }
+  }
+}

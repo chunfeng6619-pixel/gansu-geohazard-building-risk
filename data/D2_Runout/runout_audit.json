@@ -1,0 +1,30 @@
+{
+  "seed": 20260911,
+  "sources": 5768,
+  "trials_per_source": 5000,
+  "total_paths": 28840000,
+  "initial_candidates": "up to 3 highest cells touching each historical polygon; equal chance",
+  "angle_prior": "truncated normal mean25 sd5 bounds10..40 deg, uncalibrated",
+  "routing": "random strictly downhill neighbour with probability proportional to slope^4",
+  "energy": "v^2/(2g)=z0-z-mu*s, mu=tan(alpha), v0=0",
+  "source_weights": "equal source or affected-polygon area; neither calibrated occurrence weights",
+  "first_arrival_records": 8575,
+  "direct_buildings": 6,
+  "neighbourhood_buildings": 7,
+  "maximum_steps": 43,
+  "stops": {
+    "energy": 26448089,
+    "sink": 2391911
+  },
+  "seconds": 48.2372362613678,
+  "limitations": [
+    "No volume, depth, entrainment, momentum runup or barrier model",
+    "Fixed 30m DEM: terrain uncertainty not sampled",
+    "Velocity is residual energy proxy, not measured or validated building impact speed",
+    "No new sources outside historical polygons",
+    "Current OSM is incomplete",
+    "MC standard error is conditional simulation error, not epistemic confidence",
+    "Zero hits does not prove zero physical probability",
+    "No source activation rates or whole-building fragility attached"
+  ]
+}
