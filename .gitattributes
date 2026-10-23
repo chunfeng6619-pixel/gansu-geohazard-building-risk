@@ -1,0 +1,2 @@
+# Preserve exact archived bytes, including CSV/INP line endings and SHA-256 hashes.
+* -text

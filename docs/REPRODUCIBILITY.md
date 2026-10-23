@@ -1,4 +1,4 @@
-# Reproducibility levels, version 1.0.0
+# Reproducibility levels, version 1.0.1
 
 The release distinguishes numerical replay from rerunning external solvers.
 

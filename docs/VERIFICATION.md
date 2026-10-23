@@ -1,6 +1,6 @@
 # Release verification
 
-Version 1.0.0 was checked in a clean Windows virtual environment with Python
+Version 1.0.1 was checked in a clean Windows virtual environment with Python
 3.12, NumPy 2.5.4 and SciPy 1.18.1. These are observed verification versions;
 the broader dependency ranges are convenience specifications, not a claim that
 every combination has been tested.
