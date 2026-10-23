@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this versioned research archive when using its code or supporting data."
 type: software
 title: "Research code and supporting data for: A Multi-Agent Framework for Regional Landslide Susceptibility Mapping and Multi-Hazard Fragility Assessment of Rural Buildings"
-version: 1.0.1
+version: 1.0.2
 date-released: 2026-10-23
 url: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk
 repository-code: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk

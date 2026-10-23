@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-10-23
+
+Release for the now-connected Zenodo archive. Scientific code, original data
+and verified calculation results are unchanged from 1.0.1; citation/version
+metadata identify this archival release.
+
 ## 1.0.1 — 2026-10-23
 
 Preserve exact archived CSV/INP/source bytes across Git checkouts using an explicit

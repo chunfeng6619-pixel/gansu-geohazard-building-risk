@@ -74,7 +74,7 @@ from newly added release-audit utilities.
 
 Code is MIT. Data rights differ by component; see [DATA_LICENSES.md](DATA_LICENSES.md).
 Do not drop Overture/OSM attribution from reused spatial derivatives.
-Use `CITATION.cff` to cite version 1.0.1. A repository URL is not a DOI; the DOI
+Use `CITATION.cff` to cite version 1.0.2. A repository URL is not a DOI; the DOI
 will be added only after a public Zenodo record has actually been published.
 
 中文说明：[README_zh.md](README_zh.md).

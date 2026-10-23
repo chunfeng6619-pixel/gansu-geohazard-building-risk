@@ -2,7 +2,7 @@
   "title": "Research code and supporting data for: A Multi-Agent Framework for Regional Landslide Susceptibility Mapping and Multi-Hazard Fragility Assessment of Rural Buildings",
   "upload_type": "software",
   "publication_date": "2026-10-23",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "access_right": "open",
   "license": "mit",
   "creators": [
@@ -12,7 +12,7 @@
     },
     {
       "name": "Shi, Chen",
-      "affiliation": "Gansu Agricultural University"
+      "affiliation": "Gansu Agricultural University; International Research Base of Seismic Mitigation and Isolation of Gansu Province, Lanzhou University of Technology"
     },
     {
       "name": "Li, Yawei",
