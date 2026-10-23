@@ -42,4 +42,6 @@ D5：局部敏感性；D6：独立参数化年度风险算例；D7：三地完�
 
 代码采用 MIT 许可；自有非空间数值数据采用 CC BY 4.0；OSM/Overture 相关
 数据库衍生内容保留 ODbL 及来源署名。详见 DATA_LICENSES.md。
-DOI 只有在 Zenodo 正式发布并可访问后才写入引用，不以预留号码代替发布。
+v1.0.2 已在 Zenodo 正式发布，版本 DOI：https://doi.org/10.5281/zenodo.23594168。
+归档内 118 个清单文件的 SHA-256 已逐一核对。论文引用采用这一固定版本 DOI；
+汇集未来各版本的总 DOI 为 https://doi.org/10.5281/zenodo.23594167。

@@ -7,6 +7,10 @@ Research code and supporting numerical data for:
 Hao Wang, Chen Shi, Yawei Li and Hongrong Ma.
 Repository: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk
 
+Version 1.0.2 DOI: [10.5281/zenodo.23594168](https://doi.org/10.5281/zenodo.23594168)
+
+All-version DOI: [10.5281/zenodo.23594167](https://doi.org/10.5281/zenodo.23594167)
+
 This release accompanies manuscript `1022` and its Supplementary Material.
 It combines archived numerical evidence with portable calculation and audit
 commands. It is a research snapshot, not a claim that all regional hazards or
@@ -74,7 +78,10 @@ from newly added release-audit utilities.
 
 Code is MIT. Data rights differ by component; see [DATA_LICENSES.md](DATA_LICENSES.md).
 Do not drop Overture/OSM attribution from reused spatial derivatives.
-Use `CITATION.cff` to cite version 1.0.2. A repository URL is not a DOI; the DOI
-will be added only after a public Zenodo record has actually been published.
+Use `CITATION.cff` to cite version 1.0.2. The published version 1.0.2 is archived at https://doi.org/10.5281/zenodo.23594168.
+The DOI record and archive contents were checked after publication. Its 118
+manifest entries match the scientific release. The tagged archive preserves
+the release snapshot; the main branch additionally records its assigned DOI.
+Use the version DOI when citing the calculations reported in this manuscript.
 
 中文说明：[README_zh.md](README_zh.md).

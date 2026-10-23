@@ -3,6 +3,7 @@ message: "Please cite this versioned research archive when using its code or sup
 type: software
 title: "Research code and supporting data for: A Multi-Agent Framework for Regional Landslide Susceptibility Mapping and Multi-Hazard Fragility Assessment of Rural Buildings"
 version: 1.0.2
+doi: 10.5281/zenodo.23594168
 date-released: 2026-10-23
 url: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk
 repository-code: https://github.com/chunfeng6619-pixel/gansu-geohazard-building-risk
